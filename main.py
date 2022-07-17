@@ -20,6 +20,7 @@ clock = pygame.time.Clock()
 
 drive = True
 while drive:
+    
     for event in pygame.event.get():  # when clicked quit X button
         if event.type == pygame.QUIT:
             drive = False
